@@ -32,6 +32,7 @@ On va simuler un cluster Citus avec 3 conteneurs sur la même machine, chacun é
 
 Les trois conteneurs communiquent entre eux via un réseau interne Docker. Ils se reconnaissent par leur nom (`citus_worker1`, `citus_worker2`) — Docker gère cela automatiquement.
 
+![Architecture Citus]( architecture_citus.png)
 ---
 
 ## B. Citus
